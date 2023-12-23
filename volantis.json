@@ -1,0 +1,16 @@
+{
+    "name": "volantis/volantis",
+    "type": "application",
+    "description": "The volantis package manager CLI for Windows.",
+    "website": "https://volantis.dev",
+    "authors": [{
+        "name": "Ben McClure",
+        "email": "ben@volantisdev.com"
+    }],
+    "require": {
+        "volantis/app": "^1.0 || dev-main"
+    },
+    "libraries": {
+        "Volantis": "lib"
+    }
+}
